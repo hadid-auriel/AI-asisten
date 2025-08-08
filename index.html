@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntex AI</title>
+    <link rel="stylesheet" href="synai.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <img src="SY.png" alt="Syntex Profile" class="profile-pic">
+            <div class="header-info">
+                <div class="alya-name">SYNTEX</div>
+                <div class="status-dot"></div>
+                <div class="status-text">Online</div>
+            </div>
+            <div class="controls-container">
+                <input type="text" id="userName" placeholder="Kenalkan Nama Anda...">
+                <button id="theme-toggle-btn" title="Ganti Tema"></button>
+                
+    <div class="settings-menu" id="settings-menu">
+        <span id="current-mode-text">Asisten Pribadi</span>
+    </div><!-- Removed dropdown and locked to asisten mode -->
+
+                    <button class="settings-menu-button" id="settings-menu-button">
+                        <span id="current-mode-text">Ai Asisten</span>
+                        <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M7 10l5 5 5-5H7z"/></svg>
+                    </button>
+                    
+            </div>
+        </div>
+
+        <div class="chat-box" id="chat-box">
+        </div>
+
+        <div class="chat-input-area">
+            <textarea id="userInput" placeholder="Ketik pesanmu di sini..." rows="1"></textarea>
+            <button id="sendBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
+                    <path d="M3 20v-6l8-2-8-2V4l19 8-19 8z"/>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="SNY.js"></script>
+</body>
+</html>
